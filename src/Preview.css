@@ -1,0 +1,38 @@
+.menu{
+    padding-top: 10rem;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.intro{
+    font-family: 'Russo One', serif;
+    font-style: normal;
+    font-size: 62px;
+    color: var(--white);
+    line-height: 64px;
+    text-wrap: none;
+    text-align: left;
+}
+.text{
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: var(--lightgreen);
+}
+.intro_reg{
+    font-family: 'Russo One', serif;
+    font-style: normal;
+    font-size: 48px;
+    color: var(--white);
+    line-height: 58px;
+}
+.text_reg{
+    font-family: 'PT Sans', serif;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--lightgreen);
+}
+
+.scopes {
+    margin-top: -5rem;
+}
