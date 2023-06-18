@@ -1,13 +1,13 @@
 // @flow
 import React from "react";
+import "./Login.css";
 
-type Props = {
-
-};
-export const Login: React.FC = ({}: Props) => {
+export const Login: React.FC = () => {
     return (
         <React.Fragment>
+            <div className={"container login-container"}>
 
+            </div>
         </React.Fragment>
     );
 };

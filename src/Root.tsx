@@ -18,8 +18,6 @@ import {cities, City} from "./data/cities.ts";
 //         }
 //         </style>
 export default function Root(): React.ReactElement {
-    const [filter, setFilter] = useState<string>("");
-
     return <React.Fragment>
         <nav className="main-navbar">
             <Link className="me-4" to="/"><img src={logo} alt="Logo"/></Link>

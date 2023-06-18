@@ -9,7 +9,8 @@ export enum Tag {
     vuz="ПРИ ВУЗе",
 }
 
-export type Colleague = {
+export interface Colleague {
+    stub: string
     long_name: string,
     tags: string[][],
     url: string

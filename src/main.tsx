@@ -8,6 +8,7 @@ import './index.css'
 import Catalogue from "./Catalogue.tsx";
 import {Login} from "./Login.tsx";
 import {Register} from "./Register.tsx";
+import {Colleague} from "./Colleague";
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
             {
                 path: "/catalogue",
                 element: <Catalogue filter={""}/>,
+            },
+            {
+                path: "/catalogue/:id",
+                element: <Colleague/>
             },
             {
                 path: "/login",
